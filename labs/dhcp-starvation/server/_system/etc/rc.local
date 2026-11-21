@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# Start the DHCP server with the lab configuration.
+# faux_init runs this after parameterization completes.
+#
+/usr/sbin/dnsmasq --conf-file=/etc/dnsmasq.conf
+exit 0
